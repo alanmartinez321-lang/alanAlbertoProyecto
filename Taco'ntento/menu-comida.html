@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Comida - Taco'ntento</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HEADER CON LOGO -->
+    <header id="barra-superior">
+        <div class="logo-container">
+            <img src="https://static.vecteezy.com/system/resources/previews/020/312/887/non_2x/cute-happy-mexican-taco-cartoon-character-illustration-with-hat-funny-mexican-food-cartoon-fast-food-mascot-fast-food-cartoon-style-vector.jpg" 
+                 alt="Logo Taco'ntento" class="logo">
+            <h1 id="titulo-principal">Taco'ntento</h1>
+        </div>
+        <nav id="menu-principal">
+            <a href="index.html" class="nav-link">Inicio</a>
+            <a href="menu-comida.html" class="nav-link active">Menú</a>
+            <a href="galeria.html" class="nav-link">Galería</a>
+            <a href="promociones.html" class="nav-link">Promociones</a>
+        </nav>
+    </header>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main>
+        <h2>Nuestro Menú Completo</h2>
+        <p class="descripcion-menu">Todos nuestros platillos preparados con ingredientes frescos y recetas tradicionales</p>
+
+        <!-- SECCIÓN PLATILLOS PRINCIPALES -->
+        <section class="categoria-menu">
+            <h3>Platos Principales</h3>
+            
+            <!-- Taco Gobernador (Gourmet) -->
+            <div class="item-menu">
+                <img src="https://blob.luznoticias.mx/images/2023/05/09/276039438101591504053686405456778678618845361n-ee8e94a7-focus-0-0-966-544.jpg" 
+                     alt="Taco Gobernador" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Taco Gobernador (Gourmet)</h4>
+                    <p>Camarones con queso fundido, chile poblano y nuestra salsa secreta. Un clásico moderno.</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Medida</th>
+                                <th>Descripción</th>
+                                <th>Costo por taco</th>
+                                <th>Precio total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Individual</td>
+                                <td>1 taco gourmet</td>
+                                <td class="precio-unitario">$45 c/u</td>
+                                <td class="precio-destacado">$45</td>
+                            </tr>
+                            <tr>
+                                <td>Orden</td>
+                                <td>3 tacos + guarnición</td>
+                                <td class="precio-unitario">$40 c/u</td>
+                                <td class="precio-destacado">$120</td>
+                            </tr>
+                            <tr>
+                                <td>Familiar</td>
+                                <td>5 tacos + extras</td>
+                                <td class="precio-unitario">$36 c/u</td>
+                                <td class="precio-destacado">$180</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Taco Volcán (Gourmet) -->
+            <div class="item-menu">
+                <img src="https://aws.traveler.es/prod/designs/v1/assets/1200x628/181615.jpg" 
+                     alt="Taco Volcán" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Taco Volcán (Gourmet)</h4>
+                    <p>Tortilla crujiente con carne, queso gratinado, aguacate y salsa especial. ¡Nuestra joya gourmet!</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Medida</th>
+                                <th>Descripción</th>
+                                <th>Costo por taco</th>
+                                <th>Precio total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Individual</td>
+                                <td>1 taco premium</td>
+                                <td class="precio-unitario">$55 c/u</td>
+                                <td class="precio-destacado">$55</td>
+                            </tr>
+                            <tr>
+                                <td>Orden</td>
+                                <td>3 tacos + guarnición</td>
+                                <td class="precio-unitario">$50 c/u</td>
+                                <td class="precio-destacado">$150</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Barbacoa de Res -->
+            <div class="item-menu">
+                <img src="https://images.unsplash.com/photo-1552332386-f8dd00dc2f85?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                     alt="Barbacoa de Res" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Barbacoa de Res Estilo Hidalgo</h4>
+                    <p>Carne de res cocida lentamente por 8 horas con chiles secos y especias tradicionales.</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Medida</th>
+                                <th>Descripción</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Chico</td>
+                                <td>200g de barbacoa</td>
+                                <td class="precio-destacado">$80</td>
+                            </tr>
+                            <tr>
+                                <td>Mediano</td>
+                                <td>400g + tortillas</td>
+                                <td class="precio-destacado">$120</td>
+                            </tr>
+                            <tr>
+                                <td>Grande</td>
+                                <td>600g + complementos</td>
+                                <td class="precio-destacado">$160</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Tacos de Suadero -->
+            <div class="item-menu">
+                <img src="https://images.unsplash.com/photo-1599974579688-8dbdd335c77f?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                     alt="Tacos de Suadero" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Tacos de Suadero</h4>
+                    <p>Suadero dorado perfectamente, jugoso y lleno de sabor. Tradición pura.</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Medida</th>
+                                <th>Descripción</th>
+                                <th>Costo por taco</th>
+                                <th>Precio total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Individual</td>
+                                <td>1 taco</td>
+                                <td class="precio-unitario">$22 c/u</td>
+                                <td class="precio-destacado">$22</td>
+                            </tr>
+                            <tr>
+                                <td>Orden</td>
+                                <td>3 tacos</td>
+                                <td class="precio-unitario">$20 c/u</td>
+                                <td class="precio-destacado">$60</td>
+                            </tr>
+                            <tr>
+                                <td>Familiar</td>
+                                <td>6 tacos</td>
+                                <td class="precio-unitario">$18 c/u</td>
+                                <td class="precio-destacado">$108</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Tacos de Cabeza -->
+            <div class="item-menu">
+                <img src="https://tacos10.com/wp-content/uploads/2018/12/tacos-de-cabeza.jpg" 
+                     alt="Tacos de Cabeza" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Tacos de Cabeza</h4>
+                    <p>Cabeza de res cocida lentamente, suave y llena de sabor. Para conocedores.</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Medida</th>
+                                <th>Descripción</th>
+                                <th>Costo por taco</th>
+                                <th>Precio total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Individual</td>
+                                <td>1 taco</td>
+                                <td class="precio-unitario">$20 c/u</td>
+                                <td class="precio-destacado">$20</td>
+                            </tr>
+                            <tr>
+                                <td>Orden</td>
+                                <td>3 tacos</td>
+                                <td class="precio-unitario">$18 c/u</td>
+                                <td class="precio-destacado">$54</td>
+                            </tr>
+                            <tr>
+                                <td>Familiar</td>
+                                <td>6 tacos</td>
+                                <td class="precio-unitario">$16 c/u</td>
+                                <td class="precio-destacado">$96</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN BEBIDAS -->
+        <section class="categoria-menu">
+            <h3>Bebidas</h3>
+            
+            <!-- Aguas Frescas -->
+            <div class="item-menu">
+                <img src="https://kokomexico.com/wp-content/uploads/2022/05/Aguas-Frescas1.jpg" 
+                     alt="Aguas Frescas" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Aguas Frescas</h4>
+                    <p>Horchata, Jamaica o Tamarindo - Refrescantes y 100% naturales.</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Medida</th>
+                                <th>Descripción</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Medio Litro</td>
+                                <td>500ml refrescante</td>
+                                <td class="precio-destacado">$25</td>
+                            </tr>
+                            <tr>
+                                <td>1 Litro</td>
+                                <td>Para compartir</td>
+                                <td class="precio-destacado">$45</td>
+                            </tr>
+                            <tr>
+                                <td>Jarra</td>
+                                <td>2 Litros familiar</td>
+                                <td class="precio-destacado">$80</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Refrescos -->
+            <div class="item-menu">
+                <img src="https://images.unsplash.com/photo-1622483767028-3f66f32aef97?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                     alt="Refrescos" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Refrescos</h4>
+                    <p>Coca-Cola, Pepsi, Fanta, Sprite - Bebidas gaseosas refrescantes.</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Medida</th>
+                                <th>Descripción</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>600ml</td>
+                                <td>Botella personal</td>
+                                <td class="precio-destacado">$30</td>
+                            </tr>
+                            <tr>
+                                <td>1 Litro</td>
+                                <td>Para compartir</td>
+                                <td class="precio-destacado">$50</td>
+                            </tr>
+                            <tr>
+                                <td>Familiar</td>
+                                <td>2.5 Litros</td>
+                                <td class="precio-destacado">$75</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Michelada -->
+            <div class="item-menu">
+                <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2022/11/prepara-mejores-micheladas.jpg" 
+                     alt="Michelada" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Michelada Taco'ntento</h4>
+                    <p>Nuestra versión especial con clamato, salsa inglesa y especias secretas.</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Medida</th>
+                                <th>Descripción</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Vaso</td>
+                                <td>500ml refrescante</td>
+                                <td class="precio-destacado">$60</td>
+                            </tr>
+                            <tr>
+                                <td>Grande</td>
+                                <td>1 Litro</td>
+                                <td class="precio-destacado">$100</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN POSTRES -->
+        <section class="categoria-menu">
+            <h3>Postres</h3>
+            
+            <!-- Flan Napolitano -->
+            <div class="item-menu">
+                <img src="https://www.steamycooker.com/wp-content/uploads/2020/08/flan-7.jpg" 
+                     alt="Flan Napolitano" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Flan Napolitano</h4>
+                    <p>Clásico flan casero con caramelo y queso crema. Tradición en cada cucharada.</p>
+                    <p class="precio-destacado">Porción individual: $40</p>
+                </div>
+            </div>
+
+            <!-- Churros Rellenos -->
+            <div class="item-menu">
+                <img src="https://uploads.vibra.co/1/2022/01/como-hacer-churros-rellenos.jpg" 
+                     alt="Churros Rellenos" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Churros Rellenos</h4>
+                    <p>Crujientes churros rellenos de cajeta o chocolate. Irresistibles.</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Medida</th>
+                                <th>Descripción</th>
+                                <th>Precio</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Chico</td>
+                                <td>2 piezas</td>
+                                <td class="precio-destacado">$35</td>
+                            </tr>
+                            <tr>
+                                <td>Mediano</td>
+                                <td>4 piezas</td>
+                                <td class="precio-destacado">$55</td>
+                            </tr>
+                            <tr>
+                                <td>Grande</td>
+                                <td>6 piezas</td>
+                                <td class="precio-destacado">$75</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+
+        <!-- SECCIÓN PAQUETES ESPECIALES -->
+        <section class="categoria-menu">
+            <h3>Paquetes Especiales</h3>
+            
+            <!-- Paquete Familiar -->
+            <div class="item-menu paquete-especial">
+                <img src="https://images.unsplash.com/photo-1513456852971-30c0b8199d4d?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                     alt="Paquete Familiar" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Paquete Familiar</h4>
+                    <p>Ideal para 4 personas. Incluye: 8 tacos variados, 2 órdenes de guacamole, 4 aguas frescas y 1 postre para compartir.</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Descripción</th>
+                                <th>Precio Regular</th>
+                                <th>Precio Promoción</th>
+                                <th>Ahorro</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Completo para 4 personas</td>
+                                <td style="text-decoration: line-through; color: #999;">$400</td>
+                                <td class="precio-destacado">$320</td>
+                                <td><span class="precio-especial">Ahorras $80</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Paquete Pareja -->
+            <div class="item-menu paquete-especial">
+                <img src="https://images.unsplash.com/photo-1551504734-5ee1c4a1479b?ixlib=rb-4.0.3&auto=format&fit=crop&w=500&q=80" 
+                     alt="Paquete Pareja" class="imagen-platillo">
+                <div class="info-platillo">
+                    <h4>Paquete Pareja</h4>
+                    <p>Romántica cena para 2. Incluye: 4 tacos gourmet, 1 orden de queso fundido, 2 postres especiales y 2 bebidas de la casa.</p>
+                    
+                    <table class="tabla-precios">
+                        <thead>
+                            <tr>
+                                <th>Descripción</th>
+                                <th>Precio Regular</th>
+                                <th>Precio Promoción</th>
+                                <th>Ahorro</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Cena romántica para 2</td>
+                                <td style="text-decoration: line-through; color: #999;">$220</td>
+                                <td class="precio-destacado">$180</td>
+                                <td><span class="precio-especial">Ahorras $40</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-contenido">
+            <div class="footer-contacto">
+                <h4>Información del Proyecto</h4>
+                <p><strong>Alumno:</strong> Alan Alberto Martínez Ortiz</p>
+                <p><strong>Materia:</strong> Programación Web</p>
+                <p><strong>Proyecto:</strong> Página web para restaurante</p>
+                <p><strong>Año:</strong> 2025</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
